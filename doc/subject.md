@@ -1,12 +1,12 @@
 파파고 번역
 
 # 목차
-1.[개요](#webserv)
-2.[서론](#chapter-i)
-3.[일반 규칙](#chapter-ii)
-4.[필수 파트](#chapter-iii)
-5.[보너스 파트](#chapter-iv)
-6.[제출 및 동료 평가](#chapter-v)
+1.[개요](#webserv)<br/>
+2.[서론](#chapter-i)<br/>
+3.[일반 규칙](#chapter-ii)<br/>
+4.[필수 파트](#chapter-iii)<br/>
+5.[보너스 파트](#chapter-iv)<br/>
+6.[제출 및 동료 평가](#chapter-v)<br/>
 
 # Webserv
 웹 서버

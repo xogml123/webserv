@@ -15,7 +15,7 @@
 * [슬랙 wpark님](https://42born2code.slack.com/archives/CU6MTFBNH/p1601786710467400?thread_ts=1601786684.466800&cid=CU6MTFBNH)
 
 ##  HTTP
-8 [MDN](https://developer.mozilla.org/ko/docs/Web/HTTP)
+* [MDN](https://developer.mozilla.org/ko/docs/Web/HTTP)
 * [🙈[HTTP] HTTP 특성(비연결성, 무상태)과 구성요소 그리고 Restful API🐵](https://victorydntmd.tistory.com/286)
 * [HTTP/1.1 와 HTTP/2 (Feat TCP, UDP, TLS)](https://sysgongbu.tistory.com/m/152)
 * [Difference between Stateless and Stateful Protocol](https://www.geeksforgeeks.org/difference-between-stateless-and-stateful-protocol/#:~:text=Stateless%20Protocol%3A&text=It%20does%20not%20require%20the,the%20example%20of%20Stateless%20Protocol)

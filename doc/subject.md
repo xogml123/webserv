@@ -1,14 +1,18 @@
 파파고 번역
 
-1.<br/>[웹 서버](#-Webserv)
-2.<br/>[제1장](#-Chapter-I)
-
+# 목차
+1.[개요](#webserv)
+2.[서론](#chapter-i)
+3.[일반 규칙](#chapter-ii)
+4.[필수 파트](#chapter-iii)
+5.[보너스 파트](#chapter-iv)
+6.[제출 및 동료 평가](#chapter-v)
 
 # Webserv
-<h1>웹 서버</h1>
+웹 서버
 
 ## This is when you finally understand why a URL starts with HTTP
-<h2>이 때 비로소 URL이 HTTP로 시작하는 이유를 알 수 있습니다.<br/></h2>
+이 때 비로소 URL이 HTTP로 시작하는 이유를 알 수 있습니다.<br/>
 
 Summary:
 요약:
@@ -30,10 +34,10 @@ Version: 19
 
 
 ## Chapter I
-<h2>제 1장</h2>
+제 1장
 
 ## Introduction
-<h2>서론</h2>
+서론<br/>
 
 The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems.<br/>
 HTTP(Hypertext Transfer Protocol)는 하이퍼미디어 정보 시스템을 위한 애플리케이션 프로토콜이다.<br/>
@@ -74,11 +78,11 @@ This feature is used for submitting web forms, including the uploading of files.
 
 
 ## Chapter II
-<h2>제 2장</h2>
+제 2장
 
 
 ## General rules
-<h2>일반 규칙</h2>
+일반 규칙<br/>
 
 • Your program should not crash in any circumstances (even when it runs out of memory), and should not quit unexpectedly.<br/>
 • 프로그램은 메모리가 부족할 경우에도 충돌하지 않아야 하며 예기치 않게 종료되지 않아야 합니다.<br/>
@@ -112,10 +116,10 @@ C 함수를 사용할 수 있지만 가능하면 항상 C++ 버전을 선호합�
 
 
 ## Chapter III
-<h2>제 3장</h2>
+제 3장
 
 ## Mandatory part
-<h2>필수부품</h2>
+필수부품<br/>
 
 Program name : webserv
 프로그램 이름 : webserv
@@ -169,7 +173,7 @@ Even if you don’t have to implement all the RFC, reading it will help you deve
 
 
 ### III.1 Requirements
-<h3>1 요구사항</h3>
+1 요구사항<br/>
 
 • Your program has to take a configuration file as argument, or use a default path.<br/>
 • 프로그램에서 구성 파일을 인수로 사용하거나 기본 경로를 사용해야 합니다.<br/>
@@ -244,7 +248,7 @@ Even if you don’t have to implement all the RFC, reading it will help you deve
 
 
 ### III.2 For MacOS only
-<h3>2 MacOS 전용</h3>
+2 MacOS 전용<br/>
 
 >파란색 느낌표
 >Since MacOS doesn’t implement write() the same way as other Unix OSes, you are allowed to use fcntl().<br/>
@@ -263,7 +267,7 @@ Even if you don’t have to implement all the RFC, reading it will help you deve
 
 
 ### III.<br/>3 Configuration file
-<h3>3 구성 파일</h3>
+3 구성 파일<br/>
 
 >노란색 전구
 >You can get some inspiration from the ’server’ part of NGINX configuration file.<br/>
@@ -367,10 +371,10 @@ You must provide some configuration files and default basic files to test and de
 
 
 ## Chapter IV
-<h2>제 4장</h2>
+제 4장
 
 ## Bonus part
-<h2>보너스 파트</h2>
+보너스 파트<br/>
 
 Here are the extra features you can add:
 추가할 수 있는 추가 기능은 다음과 같습니다.<br/>
@@ -395,10 +399,10 @@ Here are the extra features you can add:
 
 
 ## Chapter V
-<h2>제 5장</h2>
+제 5장
 
 ## Submission and peer-evaluation
-<h2>제출 및 동료 평가</h2>
+제출 및 동료 평가<br/>
 
 Turn in your assignment in your Git repository as usual.<br/>
 평소처럼 Git 저장소에 과제를 제출합니다.<br/>

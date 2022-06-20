@@ -374,7 +374,7 @@ Here are the extra features you can add:
 • Handle multiple CGI.<br/>
 • 여러 CGI를 처리합니다.<br/>
 
->빨간색 느낌표
+>빨간색 느낌표<br/>
 >The bonus part will only be assessed if the mandatory part is PERFECT.<br/>
 >보너스 부분은 필수 부분이 완벽한 경우에만 평가됩니다.<br/>
 >

@@ -1,4 +1,4 @@
-파파고 번역 
+파파고 번역 <br/>
 [원본 PDF](https://cdn.intra.42.fr/pdf/pdf/49399/en.subject.pdf)
 
 # 목차
@@ -167,7 +167,8 @@ Your executable will be run as follows:<br/>
 >Please read the RFC and do some tests with telnet and NGINX before starting this project.<br/>
 >이 프로젝트를 시작하기 전에 RFC를 읽고 텔넷과 NGINX를 사용하여 몇 가지 테스트를 수행하십시오.<br/>
 >
->[RFC](https://developer.<br/>mozilla.<br/>org/ko/docs/Web/HTTP)
+>[RFC(영어)](https://datatracker.ietf.org/doc/html/rfc2616)
+>[mdn(한글)](https://developer.<br/>mozilla.<br/>org/ko/docs/Web/HTTP)
 
 Even if you don’t have to implement all the RFC, reading it will help you develop the required features.<br/>
 모든 RFC를 구현할 필요는 없더라도 RFC를 읽으면 필요한 기능을 개발하는 데 도움이 됩니다.<br/>

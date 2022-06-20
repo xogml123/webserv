@@ -1,12 +1,12 @@
 파파고 번역
 
 # 목차
-1.[개요](#webserv)<br/>
-2.[서론](#chapter-i)<br/>
-3.[일반 규칙](#chapter-ii)<br/>
-4.[필수 파트](#chapter-iii)<br/>
-5.[보너스 파트](#chapter-iv)<br/>
-6.[제출 및 동료 평가](#chapter-v)<br/>
+1. [개요](#webserv)<br/>
+2. [서론](#chapter-i)<br/>
+3. [일반 규칙](#chapter-ii)<br/>
+4. [필수 파트](#chapter-iii)<br/>
+5. [보너스 파트](#chapter-iv)<br/>
+6. [제출 및 동료 평가](#chapter-v)<br/>
 
 # Webserv
 웹 서버
@@ -14,8 +14,8 @@
 ## This is when you finally understand why a URL starts with HTTP
 이 때 비로소 URL이 HTTP로 시작하는 이유를 알 수 있습니다.<br/>
 
-Summary:
-요약:
+Summary:<br/>
+요약:<br/>
 
 This project is about writing your ow HTTP server.<br/>
 이 프로젝트는 HTTP 서버를 직접 작성하는 것입니다.<br/>
@@ -29,8 +29,8 @@ HTTP는 인터넷에서 가장 많이 사용되는 프로토콜 중 하나입니
 Knowing its arcane will be useful, even if you won’t be working on a website.<br/>
 당신이 웹사이트에서 일하지 않더라도 그것의 난해함을 아는 것은 유용할 것이다.<br/>
 
-Version: 19
-버전: 19
+Version: 19<br/>
+버전: 19<br/>
 
 
 ## Chapter I
@@ -121,48 +121,48 @@ C 함수를 사용할 수 있지만 가능하면 항상 C++ 버전을 선호합�
 ## Mandatory part
 필수부품<br/>
 
-Program name : webserv
-프로그램 이름 : webserv
+Program name : webserv<br/>
+프로그램 이름 : webserv<br/>
 
-Turn in files : Makefile, *.<br/>{h, hpp}, *.<br/>cpp, *.<br/>tpp, *.<br/>ipp, configuration files
-파일 제출: Makefile, *.<br/>{h, hpp}, *.<br/>cpp, *.<br/>tpp, *.<br/>ipp, 구성 파일
+Turn in files : Makefile, *.{h, hpp}, *.cpp, *.tpp, *.ipp, configuration files<br/>
+파일 제출: Makefile, *.{h, hpp}, *.cpp, *.tpp, *.ipp, 구성 파일<br/>
 
-Makefile : NAME, all, clean, fclean, re
+Makefile : NAME, all, clean, fclean, re<br/>
 
-Arguments : [A configuration file]
-인수: [A 구성 파일]
+Arguments : [A configuration file]<br/>
+인수: [A 구성 파일]<br/>
 
 External functs : Everything in C++ 98.<br/>
 외부 함수 : C++ 98에 있는 모든 것.<br/>
 
-htons, htonl, ntohs, ntohl, select, poll, epoll
-(epoll_create, epoll_ctl, epoll_wait), kqueue
-(kqueue, kevent), socket, accept, listen, send,
-recv, bind, connect, inet_addr, setsockopt,
-getsockname, fcntl
+htons, htonl, ntohs, ntohl, select, poll, epoll<br/>
+(epoll_create, epoll_ctl, epoll_wait), kqueue<br/>
+(kqueue, kevent), socket, accept, listen, send,<br/>
+recv, bind, connect, inet_addr, setsockopt,<br/>
+getsockname, fcntl<br/>
 
-Libft authorized : n/a
-Libft 승인 : 해당사항 없음
+Libft authorized : n/a<br/>
+Libft 승인 : 해당사항 없음<br/>
 
-Description : A HTTP server in C++ 98
-설명 : C++ 98의 HTTP 서버
+Description : A HTTP server in C++ 98<br/>
+설명 : C++ 98의 HTTP 서버<br/>
 
 You must write a HTTP server in C++ 98.<br/>
 HTTP 서버를 C++ 98로 작성해야 합니다.<br/>
 
-Your executable will be run as follows:
+Your executable will be run as follows:<br/>
 실행 파일은 다음과 같이 실행됩니다.<br/>
 
-`.<br/>/webserv [configuration file]`
-`.<br/>/webserv [구성 파일]`
+`.<br/>/webserv [configuration file]`<br/>
+`.<br/>/webserv [구성 파일]`<br/>
+<br/>
 
 
-
->파란색 느낌표
+>파란색 느낌표<br/>
 >Even if poll() is mentionned in the subject and the evaluation scale, you can use any equivalent such as select(), kqueue(), or epoll().<br/>
->>대상 및 평가 척도에 poll()이 언급되더라도, select(), kqueue() 또는 epoll()과 같은 동등한 기능을 사용할 수 있습니다.<br/>
+>대상 및 평가 척도에 poll()이 언급되더라도, select(), kqueue() 또는 epoll()과 같은 동등한 기능을 사용할 수 있습니다.<br/>
 
->빨간색 느낌표
+>빨간색 느낌표<br/>
 >Please read the RFC and do some tests with telnet and NGINX before starting this project.<br/>
 >이 프로젝트를 시작하기 전에 RFC를 읽고 텔넷과 NGINX를 사용하여 몇 가지 테스트를 수행하십시오.<br/>
 >
@@ -199,7 +199,7 @@ Even if you don’t have to implement all the RFC, reading it will help you deve
 • You don’t need to use poll() (or equivalent) before reading your configuration file
 • 구성 파일을 읽기 전에 poll()을 사용할 필요가 없습니다.<br/>
 
->빨간색 느낌표
+>빨간색 느낌표<br/>
 >Because you have to use non-blocking file descriptors, it is possible to use read/recv or write/send functions with no poll() (or equivalent), and your server wouldn’t be blocking.<br/>
 >비차단 파일 설명자를 사용해야 하므로, poll()(또는 동등한 기능) 없이 읽기/복구 또는 쓰기/전송 기능을 사용할 수 있으며, 서버가 차단되지 않습니다.<br/>
 >
@@ -250,7 +250,7 @@ Even if you don’t have to implement all the RFC, reading it will help you deve
 ### III.2 For MacOS only
 2 MacOS 전용<br/>
 
->파란색 느낌표
+>파란색 느낌표<br/>
 >Since MacOS doesn’t implement write() the same way as other Unix OSes, you are allowed to use fcntl().<br/>
 >MacOS는 다른 Unix OS와 같은 방식으로 write()를 구현하지 않으므로 fcntl()을 사용할 수 있습니다.<br/>
 >
@@ -258,7 +258,7 @@ Even if you don’t have to implement all the RFC, reading it will help you deve
 >다른 유닉스 OS와 유사한 동작을 수행하려면 비차단 모드에서 파일 설명자를 사용해야 합니다.<br/>
 
 
->빨간색 느낌표
+>빨간색 느낌표<br/>
 >However, you are allowed to use fcntl() only as follows:
 >그러나 다음과 같은 경우에만 fcntl()을 사용할 수 있습니다.<br/>
 >`fcntl(fd, F_SETFL, O_NONBLOCK);`
@@ -269,11 +269,11 @@ Even if you don’t have to implement all the RFC, reading it will help you deve
 ### III.<br/>3 Configuration file
 3 구성 파일<br/>
 
->노란색 전구
+>노란색 전구<br/>
 >You can get some inspiration from the ’server’ part of NGINX configuration file.<br/>
 >NGINX 구성 파일의 '서버' 부분에서 영감을 얻을 수 있습니다.<br/>
 
-In the configuration file, you should be able to:
+In the configuration file, you should be able to:<br/>
 구성 파일에서 다음을 수행할 수 있어야 합니다.<br/>
 
 • Choose the port and host of each ’server’.<br/>
@@ -283,7 +283,7 @@ In the configuration file, you should be able to:
 • server_names를 설정할지 여부를 지정합니다.<br/>
 
 • The first server for a host:port will be the default for this host:port (that means it will answer to all the requests that don’t belong to an other server).<br/>
-• host:port의 첫 번째 서버는 이 host:port의 기본 서버가 됩니다.<br/> 즉, 다른 서버에 속하지 않는 모든 요청에 응답합니다.<br/>
+• host:port의 첫 번째 서버는 이 host:port의 기본 서버가 됩니다. 즉, 다른 서버에 속하지 않는 모든 요청에 응답합니다.<br/>
 
 • Setup default error pages.<br/>
 • 기본 오류 페이지를 설정합니다.<br/>
@@ -291,52 +291,39 @@ In the configuration file, you should be able to:
 • Limit client body size.<br/>
 • 클라이언트 본문 크기를 제한합니다.<br/>
 
-• Setup routes with one or multiple of the following rules/configuration (routes wont be using regexp):
+• Setup routes with one or multiple of the following rules/configuration (routes wont be using regexp):<br/>
 • 다음 규칙/구성 중 하나 이상을 사용하여 경로를 설정합니다(경로는 regexp를 사용하지 않음).<br/>
-
     ◦ Define a list of accepted HTTP methods for the route.<br/>
-    ◦ 경로에 대해 허용되는 HTTP 메서드 목록을 정의합니다.<br/>
-
+    ◦ 경로에 대해 허용되는 HTTP 메서드 목록을 정의합니다.<br/><br/>
     ◦ Define a directory or a file from where the file should be searched (for example, if url `/kapouet` is rooted to `/tmp/www`, `url` `/kapouet/pouic/toto/pouet` is `/tmp/www/pouic/toto/pouet`).<br/>
-    ◦ 파일을 검색할 디렉토리 또는 파일을 정의합니다(예: url `/kapouet`이 `/tmp/www`로 루팅된 경우 `url` `/kapouet/pouic/to/pouet`은 `/tmp/www/pouic/to/pouet`입니다).<br/>
-    
+    ◦ 파일을 검색할 디렉토리 또는 파일을 정의합니다(예: url `/kapouet`이 `/tmp/www`로 루팅된 경우 `url` `/kapouet/pouic/to/pouet`은 `/tmp/www/pouic/to/pouet`입니다).<br/><br/>
     ◦ Turn on or off directory listing.<br/>
-    ◦ 디렉토리 목록을 설정하거나 해제합니다.<br/>
-
+    ◦ 디렉토리 목록을 설정하거나 해제합니다.<br/><br/>
     ◦ Set a default file to answer if the request is a directory.<br/>
-    ◦ 요청이 디렉토리인 경우 응답할 기본 파일을 설정합니다.<br/>
-
-    ◦ Execute CGI based on certain file extension (for example .<br/>php).<br/>
-    ◦ 특정 파일 확장명(예: .<br/>php)을 기반으로 CGI를 실행합니다.<br/>
-
+    ◦ 요청이 디렉토리인 경우 응답할 기본 파일을 설정합니다.<br/><br/>
+    ◦ Execute CGI based on certain file extension (for example .php).<br/>
+    ◦ 특정 파일 확장명(예: .php)을 기반으로 CGI를 실행합니다.<br/><br/>
     ◦ Make the route able to accept uploaded files and configure where they should be saved.<br/>
-    ◦ 업로드된 파일을 받아들일 수 있도록 경로를 설정하고 파일을 저장할 위치를 구성합니다.<br/>
-
-        ∗ Do you wonder what a CGI is?
-        ∗ CGI가 무엇인지 궁금합니까?
-
+    ◦ 업로드된 파일을 받아들일 수 있도록 경로를 설정하고 파일을 저장할 위치를 구성합니다.<br/><br/>
+        ∗ Do you wonder what a CGI is?<br/>
+        ∗ CGI가 무엇인지 궁금합니까?<br/><br/>
         ∗ Because you won’t call the CGI directly, use the full path as PATH_INFO.<br/>
-        ∗ CGI를 직접 호출하지 않으므로 전체 경로를 PATH_INFO로 사용하십시오.<br/>
-
+        ∗ CGI를 직접 호출하지 않으므로 전체 경로를 PATH_INFO로 사용하십시오.<br/><br/>
         ∗ Just remember that, for chunked request, your server needs to unchunked it and the CGI will expect EOF as end of the body.<br/>
-        ∗ 청크된 요청의 경우 서버가 해당 요청을 취소해야 하며 CGI는 본문의 끝으로 EOF를 기대합니다.<br/>
-
-        ∗ Same things for the output of the CGI.<br/> If no content_length is returned from the CGI, EOF will mark the end of the returned data.<br/>
-        ∗ CGI의 출력도 마찬가지입니다.<br/> CGI에서 content_length가 반환되지 않으면 EOF는 반환된 데이터의 끝을 표시합니다.<br/>
-
+        ∗ 청크된 요청의 경우 서버가 해당 요청을 취소해야 하며 CGI는 본문의 끝으로 EOF를 기대합니다.<br/><br/>
+        ∗ Same things for the output of the CGI.<br/> If no content_length is returned from the CGI, EOF will mark the end of the returned data.<br/><br/>
+        ∗ CGI의 출력도 마찬가지입니다.<br/> CGI에서 content_length가 반환되지 않으면 EOF는 반환된 데이터의 끝을 표시합니다.<br/><br/>
         ∗ Your program should call the CGI with the file requested as first argument.<br/>
-        ∗ 당신의 프로그램은 첫 번째 인수로 요청한 파일을 가지고 CGI를 호출해야 한다.<br/>
-        
+        ∗ 당신의 프로그램은 첫 번째 인수로 요청한 파일을 가지고 CGI를 호출해야 한다.<br/><br/>
         ∗ The CGI should be run in the correct directory for relative path file access.<br/>
-        ∗ CGI는 상대 경로 파일 액세스를 위해 올바른 디렉토리에서 실행되어야 합니다.<br/>
-        
+        ∗ CGI는 상대 경로 파일 액세스를 위해 올바른 디렉토리에서 실행되어야 합니다.<br/><br/>
         ∗ Your server should work with one CGI (php-CGI, Python, and so forth).<br/>
-        ∗ 서버는 하나의 CGI(php-CGI, Python 등)와 함께 작동해야 합니다.<br/>
+        ∗ 서버는 하나의 CGI(php-CGI, Python 등)와 함께 작동해야 합니다.<br/><br/>
 
 You must provide some configuration files and default basic files to test and demonstrate every feature works during evaluation.<br/>
 평가 중에 모든 기능이 작동하는지 테스트하고 시연하려면 일부 구성 파일과 기본 기본 파일을 제공해야 합니다.<br/>
 
->파란색 느낌표
+>파란색 느낌표<br/>
 >If you’ve got a question about one behavior, you should compare your program behavior with NGINX’s.<br/>
 >한 가지 동작에 대한 질문이 있으면 프로그램 동작을 NGINX의 동작과 비교해야 합니다.<br/>
 >
@@ -351,13 +338,13 @@ You must provide some configuration files and default basic files to test and de
 
 
 
->빨간색 느낌표
+>빨간색 느낌표<br/>
 >The important thing is resilience.<br/> Your server should never die.<br/>
 >중요한 것은 회복력이다.<br/> 서버가 중단되면 안 됩니다.<br/>
 
 
 
->빨간색 느낌표
+>빨간색 느낌표<br/>
 >Do not test with only one program.<br/>
 >하나의 프로그램으로만 테스트하지 마십시오.<br/>
 >

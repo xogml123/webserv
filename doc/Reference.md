@@ -4,7 +4,7 @@
 1. [과제 흐름](#과제-흐름)
 2. [HTTP](#HTTP)
 3. [kqueue](#kqueue)
-4. [I/O multiplexing](#I/O-multiplexing)
+4. [multiplexing](#multiplexing)
 5. [rfc](#rfc)
 6. [poll](#poll)
 7. [책](#책)

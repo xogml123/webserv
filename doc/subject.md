@@ -106,8 +106,8 @@ If it happens, your project will be considered non-functional and your grade wil
 Then, it should still compile if you add the flag -std=c++98.<br/>
 그런 다음 플래그 -flag=c++98을 추가하면 컴파일됩니다.<br/>
 
-• Try to always develop using the most C++ features you can (for example, choose <cstring> over <string.<br/>h>).<br/>
-• 항상 최대한의 C++ 기능을 사용하여 개발하도록 하십시오(예: <string.<br/>h> 대신 <cstring>을 선택하십시오.<br/>).<br/>
+• Try to always develop using the most C++ features you can (for example, choose <cstring> over <string.h>).<br/>
+• 항상 최대한의 C++ 기능을 사용하여 개발하도록 하십시오(예: <string.h> 대신 <cstring>을 선택하십시오.).<br/>
 
 You are allowed to use C functions, but always prefer their C++ versions if possible.<br/>
 C 함수를 사용할 수 있지만 가능하면 항상 C++ 버전을 선호합니다.<br/>

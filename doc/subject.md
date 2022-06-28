@@ -221,8 +221,8 @@ Even if you don’t have to implement all the RFC, reading it will help you deve
 • Your server must be compatible with the web browser of your choice.<br/>
 • 서버가 선택한 웹 브라우저와 호환되어야 합니다.<br/>
 
-• We will consider that NGINX is HTTP 1.<br/>1 compliant and may be used to compare headers and answer behaviors.<br/>
-• NGINX는 HTTP 1.<br/>1을 준수하며 헤더를 비교하고 동작에 응답하는 데 사용될 수 있음을 고려할 것이다.<br/>
+• We will consider that NGINX is HTTP 1.1 compliant and may be used to compare headers and answer behaviors.<br/>
+• NGINX는 HTTP 1.1을 준수하며 헤더를 비교하고 동작에 응답하는 데 사용될 수 있음을 고려할 것이다.<br/>
 
 • Your HTTP response status codes must be accurate.<br/>
 • HTTP 응답 상태 코드가 정확해야 합니다.<br/>

@@ -27,6 +27,8 @@
 
 ## kqueue
 * [\[UNIX\] I/O Multiplexing을 위한 kqueue 사용법](https://hyeonski.tistory.com/m/9)
+* [Handling TCP Connections with Kqueue Event Notification](http://eradman.com/posts/kqueue-tcp.html)
+* [kqueue tutorial](https://wiki.netbsd.org/tutorials/kqueue_tutorial/)
 
 ## multiplexing
 * [I/O multiplexing](https://notes.shichao.io/unp/ch6/#readset-writeset-and-exceptset-as-value-result-arguments)
